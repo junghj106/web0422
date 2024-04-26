@@ -123,3 +123,10 @@ zoom out(전체화면 보기 가능): shift+1
 본문 arial
 제목 jeorjia
 
+포토샵
+이미지 조정: ctrl+ait+i
+
+피그마
+프레임에 사진 몇개 한꺼번에 삽입
+ctrl+shift+k
+
