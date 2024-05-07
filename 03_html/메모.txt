@@ -40,3 +40,13 @@
 내용은 어떤걸 사용해야하나? 태그, 미디어(텍스트,동영상,소리)
 
 WRAP 기능(텍스트의 시작과 끝을 감싸는 기능) 단축키: alt+w 
+
+코드펜은 이미 구조가 만들어져 있다
+태그 숫자를 자동으로 바꿔주는 프로그램: Auto rename tag
+큰 제목은 h1으로 제목이 작을 수록 h6으로 지정한다. 제목은 굵은 서체로 지정되어 있으며
+좌우 여백은 없고 위아래 여백이 있다. 표시방식이 블록이다.
+
+    <img src="figma.png" alt="">
+    <img src="../assets/facebook.png" alt="">
+    <img src="evan/instagram.png" alt="">
+    <img src="../twitter.png" alt="">
