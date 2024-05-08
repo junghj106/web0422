@@ -177,7 +177,32 @@ JS 역할
  live server -> f12
 프로그램 사용 중 live server가 안될 시 폴더를 삭제하고 다시 추가해주면 된다
 
+24-05-24
+https://junghj106.github.io/web0422/
+www.naver.com -> domain(도메인)
+192.168.2.19 -> IPv4 -> IPv6
+http:// -> 프로토콜
+프로토콜://도메인 -> URL(웹주소)
 
+포토샵
+ warped text: 왜곡 글자
 
+arc
+skewDat
+
+모든설정 초기화: 포토샵 아이콘 클릭하면서 동시에 ctrl+shift+alt
+
+GTQ 문제 푸는 순서 2->3->1->4
+ 2021년 05월 22일 GTQ(포토샵) 1급 기출문제(A형) 
+
+작업 순서
+1.artboard 제거 ctrl+shift+g
+2.layer->new_backgound from layer
+3.캔버스 사이즈 조정: ctrl+alt+c
+4.이미지 조정: ctrl+alt+i
+5.GRID: ctrl+'(view->show->grid)
+ -> 좀 더 정확하게 그리기 위하여
+6.ctrl+k -> guides,grid&slices -> gridline 100픽셀로 수정
+7.ctrl+j
 
 
