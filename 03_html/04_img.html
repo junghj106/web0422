@@ -10,13 +10,31 @@
     <h1>이미지</h1>
     <!-- img 요소는 display:inline; -->
     <!-- 이미지는 가로로 배치된다. -->
-    <h2>경로(폴더/파일명)</h2>
+    <h2>상대 경로</h2>
     <!-- html 문서는(04_img.html)는 03_html폴더에 들어 있고 이미지(figma.png)는 assets폴더에 들어 있다.  -->
     <!-- ../ 폴더를 빠져 나간다는 의미 -->
-      <!-- html 문서와 이미지가 같은 폴더에 있어야 한다. 같은 폴더에 있으면 파일명만 쓴다. -->
+    <!-- html 문서와 이미지가 같은 폴더에 있어야 한다. 같은 폴더에 있으면 파일명만 쓴다. -->
+    <h3>../폴더/파일명</h3>
     <img src="figma.png" alt="">
     <img src="../assets/facebook.png" alt="">
     <img src="evan/instagram.png" alt="">
-    <img src="../twitter.png" alt="">
-</body>
+    <img src="evan/asset/twitter.png" alt="">
+    <h3>-/를 사용한 방법</h3>
+    <img src="./figma.png" alt="">
+    <img src="./../assets/facebook.png" alt="">
+    <img src="./evan/instagram.png" alt="">
+    <img src="./evan/asset/twitter.png" alt="">
+    <!-- 단점: 로컬 테스트가 불가능 하다  -->
+    <h3>root(/)를 이용한 방법 - 실무에서 활용</h3>
+    <p>html 문서 위치에 상관없이 적용된다.</p>
+    <p>서버에서만 확인 가능하다.(라이브서버도 가상서버)</p>
+    <img src="/03_html/figma.png" alt="">
+    <img src="/assets/facebook.png" alt="">
+    <img src="/03_html/evan/instagram.png" alt="">
+    <img src="/03_html/evan/asset/twitter.png" alt="">
+
+    <h2>절대 경로</h2>
+    <p>http://~, https://~</p>
+    <img src="https://blogcodestates.com/wp-content/uploads/2023/04/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_UXUI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%BC%EA%B7%B8%EB%A7%88%EC%82%AC%EC%9A%A9%EB%B2%95_%ED%94%BC%EA%B7%B8%EB%A7%88%EB%A1%9C%EA%B3%A0.png?fit=1906%2C1081&ssl=1" width="200" alt="">
+  </body>
 </html>
