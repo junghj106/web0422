@@ -177,7 +177,7 @@ JS 역할
  live server -> f12
 프로그램 사용 중 live server가 안될 시 폴더를 삭제하고 다시 추가해주면 된다
 
-24-05-24
+24-05-08
 https://junghj106.github.io/web0422/
 www.naver.com -> domain(도메인)
 192.168.2.19 -> IPv4 -> IPv6
@@ -203,6 +203,56 @@ GTQ 문제 푸는 순서 2->3->1->4
 5.GRID: ctrl+'(view->show->grid)
  -> 좀 더 정확하게 그리기 위하여
 6.ctrl+k -> guides,grid&slices -> gridline 100픽셀로 수정
-7.ctrl+j
+7.ctrl+j -> 복제
+                                  
+
+24-05-09
+shift_드래그: 이미지 조절 시 그대로 유지(cs6 버전)
+전경색: alt+del
+배경색 ctrl+del
+레이어가 가장 중요, 모든 작업 시작은 레이어
+
+move 도구
+ 이동: 드래그
+ 복제: alt+드래그
+ auto select가 체크 되어있냐 여부 확인 필요, 체크 되어있는게 더 편리하다
+
+ctrl+d: 선택 영역 해제
+선택한 레이어 영역 복제: ctrl+j
+
+변형(transform)
+ 자유변형: ctrl+t
+ 크기조절(scale)
+ 회전(rotate)
+ 대칭(flip)
+  -flip horizental
+  -flip vertical
+ 기울기(skew)
+ 이동(move) -> translate
+
+레이어스타일
+ drop shadow
+ inner shadow
+ bevel and emboss(경사와 볼록)
+ gradient overlay
+ color overlay
+ pattern overlay
+  색: color, gradient, pattern
+ outer glow
+ inner glow
+ stroke
+ satin
+
+색상 보정: ctrl+u
+
+모양(도형, shape) 도구
+ 옵션 
+  어떤 방식으로 그릴 것인가?
+  그리기 모드
+   shape: path+pixels
+   path: 벡터, 색상 지정이 안됨 -> 선택
+   pixels: 비트맵, 색상 지정이 가능 -> dlalwl 
+
+ 
 
 
