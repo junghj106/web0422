@@ -50,8 +50,8 @@ WRAP 기능(텍스트의 시작과 끝을 감싸는 기능) 단축키: alt+w
     <img src="../assets/facebook.png" alt="">
     <img src="evan/instagram.png" alt="">
     <img src="../twitter.png" alt="">
-    
-24년 5월10일 코드펜 
+
+24년 5월10일
     <!-- href의 속성 값은?
        1. URL: http://도메인
        2. Email: ㅡmailto:메일주소
