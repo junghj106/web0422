@@ -50,3 +50,19 @@ WRAP 기능(텍스트의 시작과 끝을 감싸는 기능) 단축키: alt+w
     <img src="../assets/facebook.png" alt="">
     <img src="evan/instagram.png" alt="">
     <img src="../twitter.png" alt="">
+
+24년 5월10일
+    <!-- href의 속성 값은?
+       1. URL: http://도메인
+       2. Email: ㅡmailto:메일주소
+       3. 전화번호: tel:전화번호
+       4. 현재 페이지: #
+       5. 파일: *.html 
+ -->
+<h1>링크</h1>
+<p>href 속성은<br> hyper refrence로 값은<br> URL,이메일,전화번호,현재페이지,파일로<br> 지정할 수 있다.</P>
+<a href="http://www.google.com">구글</a><br>
+<a href=:"mailto: hong@naver.com">hong@naver.com</a><br>
+<a href="tel:010-2043-2904">010-2043-2904</a><br>
+<a href="#top">현재페이지 상단</a><br>
+<a href="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSpt_s00RrrtXVueLlGrdMvuPJ1BpGwiFQMiQV-syWpz5zTo9zBb3GL_kIdfz1Uq2mourJaYO0sL12e2vU">손흥민 메가커피</a>
