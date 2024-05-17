@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../04_css/53_레이아웃.css">
+</head>
+<!-- 레이아웃 설정
+     1. 위에서 아래(세로)
+     2. 왼쪽에서 오른쪽(가로) -->
+<body>
+    <!-- 세로 배치 -->
+    <!-- container4의 가로 크기가 1200px이다. -->
+    <!--  -->
+    <div class="container4">
+    <!-- 블록레벨요소의 가로 크기는 100%이다. -->
+    <!-- section과 footer의 가로 크기는 부모 크기의 100%이다. -->
+    <!-- df란? display flex -->
+     <div class="df section">
+        <!-- 가로 배치: 부모 요소에 display:flex; -->
+        <div class="header">헤더</div>
+        <div class="contents">
+            <!-- 세로 배치 -->
+            <div class="slide">슬라이드</div>
+            <div class="banner">배너</div>
+            <div class="notice">공지사항</div>
+        </div>
+    </div>   
+    <div class="footer">푸터</div>
+</body>
+</html>
