@@ -18,7 +18,7 @@
 }
 .div2{
     background:beige;
-    heigh: 300px;
+    height: 300px;
 }
 .div3{
     background:chocolate;
@@ -86,6 +86,72 @@
     float: left;  
 }
 /* 레이아웃 유형2: flexible */
-.container4{
+.df{
     display: flex;
+}
+/* 레이아웃 유형3: 가로+세로 */
+.header {
+    width: 200px;
+    height: 700px;
+    background: indianred;
+}
+.contents {
+    width: 1000px;
+    height: 700px;
+    background: khaki;
+}
+
+/* 사용한 클래스명 */
+/* .container1~3
+   .df -> display flex 
+   .boxSize 
+   .div1~7
+   .header
+   .contents
+   .section
+   .footer 
+   */
+
+   /* 선택자
+      1. 요소(태그,타입)
+      2. 클래스
+      3. 하위(자손:자식+손자): 같은 이름을 중복해서 사용할 수 있다. 부모요소 자손요소
+         예> .container4 .section
+         예> .container4 .notice 
+       */
+/* 레이아웃 유형4: 가로+세로 */
+.container4{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container4 .header{
+    width: 200px;
+    height: 850px;
+    background: red;
+}
+.container4 .contents{
+    width: 1000px;
+    height: 850px;
+    background: blue;
+}
+.container4 .slide{
+    width: 1000px;
+    height: 400px;
+    background: magenta
+}
+.container4 .banner{
+    width: 1000px;
+    height: 200px;
+    background: navy
+}
+.container4 .notice{
+    width: 1000px;
+    height: 250px;
+    background: black
+}
+
+.container4 .footer{
+    background: green;
+    width: 1200px;
+    height: 100px;
 }
