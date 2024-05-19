@@ -1,0 +1,34 @@
+@charset "utf-8"
+body{
+    margin: 0;
+}
+.container1{
+    width: 1200px;
+    height: 700px;
+}
+.header{
+    width: 200px;
+    height: 700px;
+    background: aquamarine;
+}
+.contents{
+    width: 1000px;
+    height: 700px;
+    background: red;
+}
+.div1{
+    height: 200px;
+    background: khaki;
+}
+.div2{
+    height: 300px;
+    background: yellowgreen;
+}
+.div3{
+    height: 100px;
+    background: blue;
+}
+.div4{
+    height: 100px;
+    background: grey;
+}
