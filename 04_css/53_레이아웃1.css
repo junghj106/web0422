@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* 자동정렬: shift+alt+f */
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    /* 콘텐츠 가로 중앙 배치 */
+}
+
+.header {
+    background: aqua;
+    height: 100px;
+}
+
+.s1 {
+    background: beige;
+    height: 300px;
+}
+
+.s2 {
+    background: yellow;
+    height: 200px;
+}
+
+.footer {
+    background: chocolate;
+    height: 100px;
+}
